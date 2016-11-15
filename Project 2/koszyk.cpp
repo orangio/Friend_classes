@@ -1,8 +1,10 @@
-#include "koszyk.h"
+#include "Header.h"
 
 using namespace std;
 
 int Koszyk::ilosc_prod=0;
+
+int Koszyk::iid = 0;
 
 	Koszyk::Koszyk():max(5)
 

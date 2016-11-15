@@ -1,13 +1,8 @@
 #pragma once
-#define produkt_hpp
-#include <iostream>
-#include <string>
-
-using namespace std;
-class Koszyk; 
+#include "Header.h"
 
  class Produkt {
-	string nazwa;
+	std::string nazwa;
 	int id;
 	int iid;
 	double cena;
@@ -20,7 +15,7 @@ public:
 
 	Produkt();
 	Produkt(const Produkt&);
-	Produkt(string, int);
+	Produkt(std::string, int);
 	//~Produkt();
 
 	//string Produkt::getNazwa();

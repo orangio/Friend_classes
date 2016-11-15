@@ -1,4 +1,5 @@
-#include "produkt.h"
+#include "Header.h"
+
 	int Produkt::licznik=0;
 
 	Produkt::Produkt():ilosc(100)
@@ -9,7 +10,7 @@
 		iid=licznik;
 
 	}
-	Produkt::Produkt(string NAZWA,int ID):ilosc(100)
+	Produkt::Produkt(std::string NAZWA,int ID):ilosc(100)
 	{
 		this->nazwa=NAZWA;
 		this->id=ID;

@@ -1,13 +1,9 @@
 #pragma once
-#include <iostream>
-#include <string>
-#include "produkt.h"
-#define koszyk_hpp
-using namespace std;
+#include "Header.h"
 
 class Koszyk {
 	static int iid;
-	Produkt* tab;
+	Produkt * tab;
 	friend void WypiszKoszyk(Koszyk&);
 	const int max;
 	static int ilosc_prod;

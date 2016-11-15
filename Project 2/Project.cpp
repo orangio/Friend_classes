@@ -1,6 +1,4 @@
-#include "koszyk.h"
-#include <iostream>
-#include <string>
+#include "Header.h"
 
 void WypiszKoszyk(Koszyk& a)
 {
@@ -11,7 +9,7 @@ void WypiszKoszyk(Koszyk& a)
 
 void WypiszProdukt(Produkt& a)
 {
-	cout << "Nazwa : " << a.nazwa << "Cena : " << a.cena << endl;
+	std::cout << "Nazwa : " << a.nazwa << "Cena : " << a.cena << std::endl;
 }
 
 int main()
